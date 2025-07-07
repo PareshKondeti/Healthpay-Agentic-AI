@@ -142,6 +142,28 @@ Return decision as JSON:
 - Docker and Docker Compose
 - Google API Key for Gemini
 
+## 🚀 Running Instructions
+
+Follow these steps to set up and run the FastAPI project locally:
+
+```powershell
+# Step 1: Create a virtual environment (Python 3.11)
+py -3.11 -m venv venv
+
+# Step 2: Activate the virtual environment (for PowerShell)
+.\venv\Scripts\Activate.ps1
+
+# Step 3: Install required packages
+pip install -r requirements.txt
+
+# Step 4: Run the FastAPI app
+python -m uvicorn app.main:app --reload
+```
+
+🔍 **API Documentation (Swagger UI):**  
+Open your browser and go to: [http://localhost:8000/docs](http://localhost:8000/docs)
+
+
 ### Setup
 
 1. **Clone and Setup Environment**
